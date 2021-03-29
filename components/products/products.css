@@ -1,0 +1,78 @@
+.products-container {
+	
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+	justify-content: start;
+	align-content: flex-start;
+	margin: var(--spacing-large) auto;
+	max-width: 1184px;
+}
+.products-element {
+	padding: 10px;
+	height: 272px;
+	width: 264px;
+	box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+	list-style-type: none;
+	margin: var(--spacing-small);
+}
+.products-element:hover {
+	box-shadow: 0px 8px 28px rgba(0, 0, 0, 0.1);
+}
+
+.products-element-rowblock {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.products-element__raiting {
+	color: #F2C94C;
+	padding: 0 5px;
+	font-size: 10px;
+	display: flex;
+	transition: 0.4s;
+	margin: 3px 5px;
+}
+.products-element__raiting:hover {
+	transform: scale(1.06);
+}
+
+.products-element__img {
+	transition: 0.4s;
+
+}
+.products-element:hover .products-element__img {
+	transform: scale(1.03);
+}
+.products-element__button {
+	margin: 5px 8px;
+	align-self: start;
+	border: none;
+	background: none;
+	padding: var(--spacing-small);
+	transition: 0.4s;
+	cursor: pointer;
+	outline: none;
+}
+.products-element__button:hover {
+	transform: scale(1.1);
+}
+.products-element__button:hover svg path {
+	fill: var(--color-black);
+}
+.products-element__button_active svg path  {
+	fill: var(--color-black);
+}
+.products-element-columnblock {
+	margin: 16px 0;
+}
+.products-element__name {
+	color: var(--color-grey);
+	font-size: 14px;
+	padding: 0 15px;
+}
+.products-element__price {
+	font-weight: bold;
+	padding: 0 15px;
+}
