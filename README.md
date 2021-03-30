@@ -1,4 +1,4 @@
 # idaTest
-npm i http-server -g 
-http-server
-Создать сервер, запустить index.html
+<p>npm i http-server -g </P>
+<p>http-server</p>
+<h4>Создать сервер, запустить index.html</h4>
