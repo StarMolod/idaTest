@@ -1,30 +1,39 @@
 class Shopping {
+	handlerClear() {
+		ROOT_SHOPPING.innerHTML = '';
+   }
 
 	render() {
 		const productsStore = localStorageUtil.getProducts();
 		let htmlCatalog = '';
+		let sumCatalog = 0;
 
-		CATALOG.forEach(({ id, name, price, img, raiting }) => {
-			if (productsStore.indexOf(id) !== -1) {
+		CATALOG.forEach(({ id, name, price }) => {
+			if (productsStore.indexOf(id) !==-1) {
 				htmlCatalog += `
 					<tr>
 						<td>${name}</td>
-						<td>${price.toLocalString()}</td>
+						<td>${price.toLocaleString()} ₽</td>
 					</tr>
-				`
+				`;
 			}
+			sumCatalog += price;
 		});
 
 		const html = `
-			<div>
-				<table>
-					${htmlCatalog}
-				</table>
-			</div>
-		`;
-
+		<div class="shopping-container">
+         <div class="shopping__close" onclick="shoppingPage.handlerClear();"></div>
+         <table>
+            ${htmlCatalog}
+            <tr>
+               <td class="shopping-element__name">💥 Сумма:</td>
+               <td class="shopping-element__price">${sumCatalog.toLocaleString()}USD</td>
+         	</tr>
+      	</table>
+      </div>
+      `;
 		ROOT_SHOPPING.innerHTML = html;
 	}
-}
+};
 
 const shoppingPage = new Shopping();

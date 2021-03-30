@@ -19,7 +19,7 @@
 	color: var(--color-grey);
 	text-decoration: none;
 }
-.header__counter {
+.header-counter {
 	margin-right: var(--spacing-large);
 	cursor: pointer;
 	display: flex;

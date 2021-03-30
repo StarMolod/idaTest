@@ -42,10 +42,11 @@
 	transition: 0.4s;
 
 }
+
 .products-element:hover .products-element__img {
 	transform: scale(1.03);
 }
-.products-element__button {
+.products-element__btn {
 	margin: 5px 8px;
 	align-self: start;
 	border: none;
@@ -55,15 +56,14 @@
 	cursor: pointer;
 	outline: none;
 }
-.products-element__button:hover {
+.products-element__btn:hover {
 	transform: scale(1.1);
 }
-.products-element__button:hover svg path {
+
+.products-element__btn:hover svg path {
 	fill: var(--color-black);
 }
-.products-element__button_active svg path  {
-	fill: var(--color-black);
-}
+
 .products-element-columnblock {
 	margin: 16px 0;
 }
