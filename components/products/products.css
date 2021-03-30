@@ -1,5 +1,4 @@
 .products-container {
-	
 	display: flex;
 	flex-flow: row wrap;
 	align-items: stretch;
@@ -11,7 +10,7 @@ margin-left: 40px;
 .products-element {
 	padding: 10px;
 	height: 272px;
-	max-width: 258px;
+	max-width: 265px;
 	box-shadow: var(--shadow-element);
 	border-radius: 8px;
 	list-style-type: none;
@@ -36,7 +35,7 @@ margin-left: 40px;
 	margin: 3px 5px;
 }
 .products-element__raiting:hover {
-	transform: scale(1.06);
+	transform: scale(1.09);
 }
 
 .products-element__img {

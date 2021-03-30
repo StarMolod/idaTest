@@ -27,6 +27,11 @@ render() {
 		ROOT_SELECT.innerHTML = html;
 
 
+
+	
+
+
+
 		let selectStart = function () {
 			let selectHeader = document.querySelectorAll('.select__header');
 			let selectItem = document.querySelectorAll('.select__item');
@@ -59,7 +64,3 @@ render() {
 }
 
 
-const selectPage = new Select();
-
-
-selectPage.render();

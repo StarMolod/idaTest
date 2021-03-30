@@ -1,0 +1,86 @@
+[
+	{
+		"id": "el1",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el2",
+		"name": "Биоразлагаемый, уже разлагается",
+		"img": "https://i.ibb.co/cF1N0kk/luxury.jpg",
+		"price": 5,
+		"raiting": 4.4
+	},
+	{
+		"id": "el3",
+		"name": "Рюкзак школьный, практичный",
+		"img": "https://i.ibb.co/mcZfSfm/backpack.jpg",
+		"price": 11000,
+		"raiting": 4.3
+	},
+	{
+		"id": "el4",
+		"name": "Суровое импортозамещение",
+		"img": "https://i.ibb.co/ysYwCxR/inde32x.jpg",
+		"price": 1500,
+		"raiting": 4.7
+	},
+	{
+		"id": "el5",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el6",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el7",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el8",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el9",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el10",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el11",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	},
+	{
+		"id": "el12",
+		"name": "Рюкзак Louis Vuitton Discovery",
+		"img": "https://i.ibb.co/6FrZCFP/louis-vuitton.jpg",
+		"price": 150000,
+		"raiting": 4.5
+	}
+]
