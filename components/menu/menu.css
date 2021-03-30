@@ -1,0 +1,23 @@
+.menu {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 80px;
+}
+.menu h1 {
+	font-size: 32px;
+
+}
+.menu a {
+	font-size: 16px;
+	padding: 10px 0px;
+	text-decoration: none;
+	color: #959dad;
+}
+.menu a:hover {
+	color: grey;
+}
+.menu a:focus {
+	text-decoration: underline;
+	color: black;
+}

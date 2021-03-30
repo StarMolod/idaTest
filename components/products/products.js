@@ -11,7 +11,7 @@ class Products {
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.5C0 3.16863 0.268629 2.9 0.6 2.9H11.4C11.7314 2.9 12 3.16863 12 3.5C12 3.83137 11.7314 4.1 11.4 4.1H0.6C0.268629 4.1 0 3.83137 0 3.5Z" fill="#111111"/>
 		<path fill-rule="evenodd" clip-rule="evenodd" d="M3.6 5.3C3.93137 5.3 4.2 5.56863 4.2 5.9C4.2 6.37739 4.38964 6.83523 4.72721 7.17279C5.06477 7.51036 5.52261 7.7 6 7.7C6.47739 7.7 6.93523 7.51036 7.27279 7.17279C7.61036 6.83523 7.8 6.37739 7.8 5.9C7.8 5.56863 8.06863 5.3 8.4 5.3C8.73137 5.3 9 5.56863 9 5.9C9 6.69565 8.68393 7.45871 8.12132 8.02132C7.55871 8.58393 6.79565 8.9 6 8.9C5.20435 8.9 4.44129 8.58393 3.87868 8.02132C3.31607 7.45871 3 6.69565 3 5.9C3 5.56863 3.26863 5.3 3.6 5.3Z" fill="#111111"/>
 	</svg>`;
-	}
+	} 
 
 	handlerSetLocatStorage(element, id) {
 		const { pushProduct, products } = localStorageUtil.putProducts(id);
@@ -42,7 +42,7 @@ class Products {
 			}
 
 			htmlCatalog += `
-				<li class="products-element">
+				<div class="products-element">
 					<div class="products-element-rowblock">
 						<span class="products-element__raiting">
 							<img src="img/star_raiting.svg" />
@@ -57,14 +57,16 @@ class Products {
 						<span class="products-element__name">${name}</span>
 						<span class="products-element__price">${price.toLocaleString()} ₽</span>
 					</div> 
-				</li>
+				</div>
 			`;
 		})
 
 		const html = `
-			<ul class="products-container">
-				${htmlCatalog}
-			</ul>
+			
+				<div class="products-container">
+					${htmlCatalog}
+				</div>
+			
 		`;
 
 		ROOT_PRODUCTS.innerHTML = html;

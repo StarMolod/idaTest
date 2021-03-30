@@ -6,16 +6,17 @@
 	justify-content: start;
 	align-content: flex-start;
 	margin: var(--spacing-large) auto;
-	max-width: 1184px;
+margin-left: 40px;
 }
 .products-element {
 	padding: 10px;
 	height: 272px;
-	width: 264px;
+	max-width: 258px;
 	box-shadow: var(--shadow-element);
 	border-radius: 8px;
 	list-style-type: none;
 	margin: var(--spacing-small);
+	
 }
 .products-element:hover {
 	box-shadow: var(--shadow-hoverelement);
