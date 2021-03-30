@@ -11,7 +11,21 @@
 
 	--border-radius: 3px;
 	--box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	--shadow-element: 0px 4px 16px rgba(0, 0, 0, 0.05);
+	--shadow-hoverelement: 0px 8px 28px rgba(0, 0, 0, 0.1);
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--color-grey-light);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+	background-color: var(--color-grey-extra-light);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -19,7 +33,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family:  "PT Sans", sans-serif;
-	line-height: 1.7;
+	line-height: 1.4;
 	background-color: var(--color-white);
 	
 }

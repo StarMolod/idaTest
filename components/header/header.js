@@ -1,7 +1,7 @@
 class Header {
 	handlerOpenShoppingPage() {
 		shoppingPage.render();
-	}
+   }
 
 
 	render(count) {
