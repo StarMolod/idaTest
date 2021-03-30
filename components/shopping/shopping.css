@@ -72,12 +72,11 @@
 }
 .shopping-element-info__raiting {
 	color: #F2C94C;
-	padding: 0 5px;
 	font-size: 10px;
 	display: flex;
-	transition: 0.4s;
-
+	align-items: center;
 }
+
 .products-element__basket {
 	align-self: center;
 	margin: 0 20px;
