@@ -5,7 +5,7 @@
 	align-items: stretch;
 	justify-content: start;
 	align-content: flex-start;
-	margin: var(--spacing-large) auto;
+	margin: var(--spacing-medium) auto;
 margin-left: 40px;
 }
 .products-element {

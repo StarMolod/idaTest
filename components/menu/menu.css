@@ -12,12 +12,12 @@
 	font-size: 16px;
 	padding: 10px 0px;
 	text-decoration: none;
-	color: #959dad;
+	color: var(--color-grey-light);
 }
 .menu a:hover {
-	color: grey;
+	color: var(--color-grey);
 }
 .menu a:focus {
 	text-decoration: underline;
-	color: black;
+	color: var(--color-black);
 }

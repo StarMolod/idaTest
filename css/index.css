@@ -54,7 +54,7 @@ body {
 	flex-direction: column-reverse;
 }
 .seldiv {
-	border: 2px solid green;
+	
 	align-self: flex-end;
 	border-radius: 5px;
 	position: relative;
